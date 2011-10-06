@@ -1,4 +1,7 @@
 <?php
+$nonce = time();
+$timestamp = time();
+
 //The oauth_callback is not necessary
 //You might need it in another project involving OAuth (the code can be adapted to handle OAuth)
 $oauth = array('oauth_callback' => 'http://yourdomain.com/callback_page',
@@ -12,9 +15,6 @@ $oauth = array('oauth_callback' => 'http://yourdomain.com/callback_page',
 
 $baseURI = "https://gomiso.com/oauth/access_token?x_auth_username=XXXXX&x_auth_password=YYYYY&x_auth_mode=client_auth"; //Your URI for xAuth. Change XXXXX by user login and YYYYY by user password
 $consumerSecret = 'LsP5sIZSnLvsXXXXXX4zjm4rYYJXkqBc'; //put your actual consumer secret here, it will look something like 'MCD8BKwGdgPHvAuvXXXXXXXXAtx89grbuNMRd7Eh98'
-
-$nonce = time();
-$timestamp = time();
 
 /**
  * Method for creating a base string from an array and base URI.
