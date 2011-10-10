@@ -23,7 +23,6 @@ $consumerSecret = 'LsP5sIZSnLvsXXXXXX4zjm4rYYJXkqBc'; //put your actual consumer
  * @return string the encoded base string
 **/
 function buildBaseString($baseURI, $params){
- 
 $r = array(); //temporary array
     ksort($params); //sort params alphabetically by keys
     foreach($params as $key=>$value){

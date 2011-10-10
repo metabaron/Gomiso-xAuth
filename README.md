@@ -1,13 +1,14 @@
 Gomiso Python
 =============
 
-Minimum xAuth code (no library, "homemade" code) authentification to Gomiso API using xAuth
+Minimum xAuth code (no library, "homemade" code) authentification to Gomiso API using xAuth.
+As this is a generic code, it can be used for any xAuth authentification.
 
 Purpose
 -------
 I tried to find documentation with code on how to query xAuth servers.
 As I was not able to find something I can use "out of the box", I coded my own version.
-I did it without using any library so that you can use it easily
+I did it without using any library so that you can use it easily with any xAuth service.
 
 Contributing
 ------------
