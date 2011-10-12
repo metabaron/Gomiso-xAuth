@@ -1,5 +1,5 @@
-Gomiso Python
-=============
+xAuth Javascript
+================
 
 Minimum xAuth code (no library, "homemade" code) authentification to Gomiso API using xAuth.
 As this is a generic code, it can be used for any xAuth authentification.
