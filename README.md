@@ -1,7 +1,7 @@
-xAuth Javascript
-================
+xAuth PHP
+=========
 
-Minimum xAuth code (no library, "homemade" code) authentification to Gomiso API using xAuth.
+Minimum xAuth code (no library, "homemade" code) authentification to Gomiso API using xAuth and PHP.
 As this is a generic code, it can be used for any xAuth authentification.
 
 Purpose
